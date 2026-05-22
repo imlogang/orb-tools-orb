@@ -11,7 +11,7 @@ parameters:
   resource_class:
     description: Configure the executor resource class
     type: enum
-    enum: ["small", "medium", "medium+", "large", "xlarge", "2xlarge", "2xlarge+"]
+    enum: ["small", "small.gen2", "medium", "medium.gen2", "medium+", "medium+.gen2", "large", "large.gen2", "xlarge", "xlarge.gen2", "2xlarge", "2xlarge.gen2", "2xlarge+", "2xlarge+.gen2"]
     default: "medium"
 
 resource_class: << parameters.resource_class >>
